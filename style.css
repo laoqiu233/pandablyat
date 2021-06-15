@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "china";
+    src: url("china.otf");
+}
+body{
+    background: #98ff98;
+}
+* {
+    font-size: 20px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: china;
+    background: #50c878;
+}
+h1 {
+    font-size: 60px;
+}
+h2 {
+    font-size: 30px;
+}
+.bambuk_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+.bambuk{
+    height: auto;
+    width: 400px;
+}
+
+.center-img {
+    display: block;
+    margin: 20px auto;
+    width: 400px;
+}
